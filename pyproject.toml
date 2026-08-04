@@ -1,0 +1,19 @@
+[project]
+name = "fasrmcp-demo-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sanskarjain1503", email = "sanskarjain1503@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=3.4.5",
+]
+
+[project.scripts]
+fasrmcp-demo-project = "fasrmcp_demo_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
